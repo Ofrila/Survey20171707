@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="SvyU"
+        android:textSize="26sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 6"
+        android:textSize="27sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="30sp"
+        android:text="What function do you expect your phone to have in the future?"
+        android:textSize="23sp"/>
+
+    <EditText
+        android:id="@+id/et_question6"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_next6"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="NEXT"
+        android:textSize="20sp"
+        android:layout_marginTop="80sp"
+        android:layout_marginLeft="66sp"
+
+        />
+
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

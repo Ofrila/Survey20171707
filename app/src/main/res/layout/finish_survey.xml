@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/tv_WelcomeSvyU"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="SvyU"
+        android:textSize="26sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU "
+        android:textSize="27sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR YOUR ANSWERS!"
+        android:textColor="@color/colorBlack"
+        android:textSize="23sp"
+        android:layout_marginLeft="50sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400sp"
+        android:background="@drawable/finish"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="300sp"
+        android:layout_below="@id/cb_accept"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="FINISH"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="66sp"
+
+        />
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
